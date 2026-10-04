@@ -183,12 +183,18 @@ header li a:hover::after {
   object-fit: cover;
 }
 
+.annotation {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-top: 10px;
+}
+
 .label {
   padding: 3px 13px;
   font-size: 0.9rem;
   border-radius: 30px;
   color: #fff;
-  margin-top: 9px;
 }
 
 .label-orange {
@@ -202,6 +208,8 @@ header li a:hover::after {
 .tag {
   color: #868686;
   font-size: 0.9rem;
+  display: flex;
+  gap: 10px;
 }
 
 .work-list h3 {
@@ -333,18 +341,20 @@ header li a:hover::after {
 }
 
 /* 作品詳細 */
-.work-title #tag {
-  color: #81b8cd;
-  font-size: 1rem;
-}
-
 .work-title #label {
   padding: 3px 13px;
   font-size: 0.7rem;
   border-radius: 30px;
   color: #81b8cd;
-  margin-left: 1%;
   border: 1px solid #81b8cd;
+}
+
+.work-title #tag {
+  color: #81b8cd;
+  font-size: 1rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .work-title h2 {
@@ -534,11 +544,16 @@ footer {
   }
 
   .category-btn {
+    width: 90%;
+    margin: 0 auto;
     margin-bottom: 20px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
   }
 
   .category-btn button {
-    width: 100%;
+    width: fit-content;
   }
 
   /* 作品詳細 */

@@ -15,8 +15,12 @@ function myFunction() {
       );
       const labelName = label ? label.labelName : "";
 
-      const tag = arryaTag.find((tagList) => tagList.value === workList.value);
-      const tagName = tag ? tag.tagName : "";
+      const tagName = workList.value
+        .map((value) => {
+          const tag = arryaTag.find((tag) => tag.value === value);
+          return `<span>${tag.tagName}</span>`;
+        })
+        .join("");
 
       const workLink = arrayWorkLink.find(
         (linkList) => linkList.id === workList.id,
@@ -30,7 +34,7 @@ function myFunction() {
         <li>
             <a href="./workDetail.html?id=${workList.id}">
                 <img src="${link}" alt="${alt}">
-                <div>
+                <div class="annotation">
                     <p class="label ${labelColor}">${labelName}</p>
                     <p class="tag">${tagName}</p>
                 </div>
@@ -49,8 +53,8 @@ function clickBtnCategory(slectCategory) {
   let slectWorkList = arrayWorkDetail;
 
   if (category !== "all") {
-    slectWorkList = arrayWorkDetail.filter(
-      (workList) => workList.value === category,
+    slectWorkList = arrayWorkDetail.filter((workList) =>
+      workList.value.find((value) => value === category),
     );
   }
 
@@ -61,8 +65,12 @@ function clickBtnCategory(slectCategory) {
       );
       const labelName = label ? label.labelName : "";
 
-      const tag = arryaTag.find((tagList) => tagList.value === workList.value);
-      const tagName = tag ? tag.tagName : "";
+      const tagName = workList.value
+        .map((value) => {
+          const tag = arryaTag.find((tag) => tag.value === value);
+          return `<span>${tag.tagName}</span>`;
+        })
+        .join("");
 
       const workLink = arrayWorkLink.find(
         (linkList) => linkList.id === workList.id,
@@ -76,7 +84,7 @@ function clickBtnCategory(slectCategory) {
         <li>
             <a href="./workDetail.html?id=${workList.id}">
                 <img src="${link}" alt="${alt}">
-                <div>
+                <div class="annotation">
                     <p class="label ${labelColor}">${labelName}</p>
                     <p class="tag">${tagName}</p>
                 </div>
