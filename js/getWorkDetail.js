@@ -40,7 +40,7 @@ document.getElementById("title").textContent = work.title;
 
 document.getElementById("target").textContent = work.target;
 document.getElementById("purpose").textContent = work.purpose;
-document.getElementById("point").textContent = work.point;
+document.getElementById("point").innerHTML = work.point;
 document.getElementById("time").textContent = work.time;
 document.getElementById("size").textContent = work.size;
 document.getElementById("tool").textContent = work.tool;
