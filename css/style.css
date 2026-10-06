@@ -372,6 +372,7 @@ header li a:hover::after {
 .work-title #url {
   display: block;
   height: 24px;
+  border: none;
 }
 
 .work-display-area {

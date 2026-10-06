@@ -26,8 +26,8 @@ export const arrayWorkLink = [
   },
   {
     id: 1006,
-    link: "./img/home/web/hamburger.webp",
-    alt: "ハンバーガーのお店のwebサイト",
+    link: "./img/home/web/burger_shop_recurrent.webp",
+    alt: "ハンバーガー「BURGER-SHOP RECURRENT」のwebサイト",
   },
   {
     id: 1007,
@@ -44,6 +44,16 @@ export const arrayWorkLink = [
     link: "./img/home/flier/hamburger.webp",
     alt: "ハンバーガーのポスター",
   },
+  {
+    id: 1010,
+    link: "./img/home/web/guilty-cotton.webp",
+    alt: "アイス「guilty-cotton」のWebサイト",
+  },
+  {
+    id: 1011,
+    link: "./img/home/movie/museum.webp",
+    alt: "長濱美術館「モカそれからの100年」のショート動画",
+  },
 ];
 
 export const arrayLabel = [
@@ -56,6 +66,7 @@ export const arryaTag = [
   { value: "web", tagName: "#web" },
   { value: "vi", tagName: "#video" },
   { value: "fl", tagName: "#flier" },
+  { value: "mv", tagName: "#movie" },
   { value: "cd", tagName: "#模写コーディング" },
 ];
 
@@ -78,7 +89,7 @@ export const arrayWorkDetail = [
   {
     id: 1002,
     title: "トマトジュース「赤の習慣」",
-    link: "./img/work/banner/tomato_juice01.webp",
+    link: "./img/work/banner/tomato_juice02.webp",
     url: "",
     target: "栄養不足を気にしている20代女性",
     purpose: "トマトジュース「赤の習慣」の販売促進  ",
@@ -93,7 +104,7 @@ export const arrayWorkDetail = [
   {
     id: 1003,
     title: "サンドイッチ屋",
-    link: "./img/home/flier/sandwich.webp",
+    link: "./img/work/flier/sandwich.webp",
     url: "",
     target: "Instagramでお店を探す20〜30代女性",
     purpose: "お店のInstagramを見てもらう",
@@ -108,7 +119,7 @@ export const arrayWorkDetail = [
   {
     id: 1004,
     title: "美容液",
-    link: "./img/home/banner/skin _serum.webp",
+    link: "./img/work/banner/skin_serum.webp",
     url: "",
     target: "乾燥に悩む20代〜30代の女性",
     purpose: "美容液に興味を持ってもらい、商品ページへアクセスしてもらう",
@@ -123,7 +134,7 @@ export const arrayWorkDetail = [
   {
     id: 1005,
     title: "美容室",
-    link: "/img/home/flier/hair_salon.webp",
+    link: "/img/work/flier/hair_salon.webp",
     url: "",
     target: "髪のダメージやパサつきが気になる30代女性",
     purpose: "新規OPENの認知向上と、キャンペーンを通じた新規顧客の獲得",
@@ -138,8 +149,8 @@ export const arrayWorkDetail = [
   {
     id: 1006,
     title: "ハンバーガー「BURGER-SHOP RECURRENT」",
-    link: "./img/home/web/hamburger.webp",
-    url: "http://127.0.0.1:5500/index.html",
+    link: "./img/work/web/burger_shop_recurrent.webp",
+    url: "https://smwka.github.io/burger-shop-recurrent-site/",
     target: "30代男性",
     purpose: "認知度を上げ、来店してもらう",
     point: "学校生活がイメージできるように写真を多く使用した。",
@@ -152,7 +163,7 @@ export const arrayWorkDetail = [
   {
     id: 1007,
     title: "夏期講習",
-    link: "./img/home/banner/cram_school01.webp",
+    link: "./img/work/banner/cram_school01.webp",
     url: "",
     target: "真剣に大学受験を目指している高校生",
     purpose: "塾に興味を持ってもらい、公式サイトへアクセスしてもらう",
@@ -167,7 +178,7 @@ export const arrayWorkDetail = [
   {
     id: 1008,
     title: "夏期講習",
-    link: "./img/home/banner/cram_school02.webp",
+    link: "./img/work/banner/cram_school02.webp",
     url: "",
     target: "初めて塾に通うことに不安があり、安心して楽しく学びたい高校生",
     purpose: "塾に興味を持ってもらい、公式サイトへアクセスしてもらう",
@@ -182,16 +193,46 @@ export const arrayWorkDetail = [
   {
     id: 1009,
     title: "ハンバーガー",
-    link: "./img/home/flier/hamburger.webp",
-    url: "http://127.0.0.1:5500/index.html",
+    link: "./img/work/flier/hamburger.webp",
+    url: "",
     target: "ボリュームのあるハンバーガーやチーズが好きな20〜30代男性",
-    purpose: "ハンバーガーの購買促進。",
+    purpose: "ハンバーガーの購買促進",
     point:
       "A1サイズでの掲示を想定し、遠くからでも情報が認識しやすいよう、文字やロゴのサイズ・配置を調整しました。背景に放射状のラインを取り入れ、中央のハンバーガーへ視線が集まるようにすることで、商品の存在感を高めた。とろけるチーズの表現を加えることで、チーズを特徴とした商品の魅力が視覚的に伝わるよう工夫した。",
     time: "3時間",
     size: "594×841mm",
     tool: "Illustrator / Photoshop",
     value: ["fl"],
+    number: 1,
+  },
+  {
+    id: 1010,
+    title: "アイス「guilty-cotton」",
+    link: "./img/work/web/guilty-cotton.webp",
+    url: "https://smwka.github.io/guilty-cotton-site/",
+    target: "SNSでお店を探す20代女性",
+    purpose: "認知度向上と主客",
+    point:
+      "A1サイズでの掲示を想定し、遠くからでも情報が認識しやすいよう、文字やロゴのサイズ・配置を調整しました。背景に放射状のラインを取り入れ、中央のハンバーガーへ視線が集まるようにすることで、商品の存在感を高めた。とろけるチーズの表現を加えることで、チーズを特徴とした商品の魅力が視覚的に伝わるよう工夫した。",
+    time: "3時間",
+    size: "1920×1080",
+    tool: "Illustrator / Photoshop",
+    value: ["web", "cd"],
+    number: 1,
+  },
+  {
+    id: 1011,
+    title: "長濱美術館「モカそれからの100年」",
+    link: "",
+    url: "https://youtube.com/shorts/gquQNM0wYCQ?si=SwPhSjWTttf6bcNF",
+    target: "毎日のスマホやPC作業に疲れている30代女性",
+    purpose: "作品を見に美術館へ足を運んでもらう",
+    point:
+      "動画の冒頭にターゲットに向けたキャッチコピーを取り入れ、興味を持ってもらえるよう工夫した。<br><br>視聴者が文字を読みやすいよう、テキストを表示するタイミングや表示時間を調整し、内容をしっかり理解できるテンポを意識した。<br><br>美術館で作品を鑑賞しているような雰囲気を演出するため、背景を暗めにし、作品の写真を横方向にスライドさせて順番に見せる構成にした。",
+    time: "3時間",
+    size: "1080×1920px",
+    tool: "Illustrator / Photoshop",
+    value: ["mv"],
     number: 1,
   },
 ];
