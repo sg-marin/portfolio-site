@@ -240,7 +240,9 @@ header li a:hover::after {
 
 .about-content img {
   width: 158px;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .about-name {
@@ -294,7 +296,7 @@ header li a:hover::after {
 
 .skill-icon img {
   aspect-ratio: 16 / 9;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
   height: 100%;
   margin-top: 16px;
