@@ -560,4 +560,9 @@ footer {
   .work-title h2 {
     font-size: 1.5rem;
   }
+
+  /*about*/
+  .about-content {
+    flex-direction: column;
+  }
 }
