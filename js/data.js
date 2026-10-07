@@ -223,13 +223,13 @@ export const arrayWorkDetail = [
   {
     id: 1011,
     title: "長濱美術館「モカそれからの100年」",
-    link: "",
+    link: "./img/work/movie/museum.webp",
     url: "https://youtube.com/shorts/gquQNM0wYCQ?si=SwPhSjWTttf6bcNF",
     target: "毎日のスマホやPC作業に疲れている30代女性",
     purpose: "作品を見に美術館へ足を運んでもらう",
     point:
       "動画の冒頭にターゲットに向けたキャッチコピーを取り入れ、興味を持ってもらえるよう工夫した。<br><br>視聴者が文字を読みやすいよう、テキストを表示するタイミングや表示時間を調整し、内容をしっかり理解できるテンポを意識した。<br><br>美術館で作品を鑑賞しているような雰囲気を演出するため、背景を暗めにし、作品の写真を横方向にスライドさせて順番に見せる構成にした。",
-    time: "3時間",
+    time: "6時間",
     size: "1080×1920px",
     tool: "Illustrator / Photoshop",
     value: ["mv"],
