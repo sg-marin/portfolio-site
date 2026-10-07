@@ -212,7 +212,7 @@ export const arrayWorkDetail = [
     link: "./img/work/web/guilty-cotton.webp",
     url: "https://smwka.github.io/guilty-cotton-site/",
     target: "SNSでお店を探す20代女性",
-    purpose: "認知度向上と主客",
+    purpose: "認知度を上げ、来店してもらう",
     point:
       "CSS Gridを使用し、grid-columやgrid-rowを指定して各要素の配置を細かく調整することで、複数の画像やコンテンツを組み合わせた複雑なレイアウトを表現した。<br><br>項目の追加・削除した場合にもレイアウトが崩れにくくなるように、要素間の余白はmargin-topを使用して設定することを意識した。",
     time: "3時間",
