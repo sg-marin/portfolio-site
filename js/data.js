@@ -153,7 +153,8 @@ export const arrayWorkDetail = [
     url: "https://smwka.github.io/burger-shop-recurrent-site/",
     target: "30代男性",
     purpose: "認知度を上げ、来店してもらう",
-    point: "学校生活がイメージできるように写真を多く使用した。",
+    point:
+      "HTMLでは内容に適したタグを使用し、CSSではremやpxなど用途に応じて単位を使い分け、HTMLの構造とCSS役割を意識してコーディングした。<br><br>画面幅に応じてレイアウトが切り替わるようにレスポンシブ対応を行、PC、スマートフォンなど異なる画面サイズでも閲覧しやすいようにした。",
     time: "5時間",
     size: "1920p×1080spx",
     tool: "HTML / CSS",
@@ -213,7 +214,7 @@ export const arrayWorkDetail = [
     target: "SNSでお店を探す20代女性",
     purpose: "認知度向上と主客",
     point:
-      "A1サイズでの掲示を想定し、遠くからでも情報が認識しやすいよう、文字やロゴのサイズ・配置を調整しました。背景に放射状のラインを取り入れ、中央のハンバーガーへ視線が集まるようにすることで、商品の存在感を高めた。とろけるチーズの表現を加えることで、チーズを特徴とした商品の魅力が視覚的に伝わるよう工夫した。",
+      "CSS Gridを使用し、grid-columやgrid-rowを指定して各要素の配置を細かく調整することで、複数の画像やコンテンツを組み合わせた複雑なレイアウトを表現した。<br><br>項目の追加・削除した場合にもレイアウトが崩れにくくなるように、要素間の余白はmargin-topを使用して設定することを意識した。",
     time: "3時間",
     size: "1920×1080",
     tool: "Illustrator / Photoshop",
