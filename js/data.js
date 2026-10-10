@@ -12,7 +12,7 @@ export const arrayWorkLink = [
   {
     id: 1003,
     link: "./img/home/flier/sandwich.webp",
-    alt: "サンドイッチのチラシ",
+    alt: "サンドイッチ屋のチラシ",
   },
   {
     id: 1004,
@@ -149,8 +149,22 @@ export const arrayWorkDetail = [
   {
     id: 1006,
     title: "ハンバーガー「BURGER-SHOP RECURRENT」",
-    link: "./img/work/web/burger_shop_recurrent.webp",
-    url: "https://smwka.github.io/burger-shop-recurrent-site/",
+    link: "./img/work/web/burger_shop_recurrent/burger_shop_recurrent.webp",
+    url: "https://sg-marin.github.io/burger-shop-recurrent-site/",
+    contents: [
+      {
+        label: "PC",
+        type: "pc",
+        src: "./img/work/web/burger_shop_recurrent/pc_burger_shop_recurrent.webp",
+        alt: "PC版ハンバーガー「BURGER-SHOP RECURRENT」のLP",
+      },
+      {
+        label: "SP",
+        type: "sp",
+        src: "./img/work/web/burger_shop_recurrent/sp_burger_shop_recurrent.webp",
+        alt: "SP版ハンバーガー「BURGER-SHOP RECURRENT」のLP",
+      },
+    ],
     target: "30代男性",
     purpose: "認知度を上げ、来店してもらう",
     point:
@@ -209,8 +223,16 @@ export const arrayWorkDetail = [
   {
     id: 1010,
     title: "アイス「guilty-cotton」",
-    link: "./img/work/web/guilty-cotton.webp",
-    url: "https://smwka.github.io/guilty-cotton-site/",
+    link: "./img/work/web/guilty_cotton/guilty_cotton.webp",
+    url: "https://sg-marin.github.io/guilty-cotton-site/",
+    contents: [
+      {
+        label: "PC",
+        type: "pc",
+        src: "./img/work/web/guilty_cotton/pc_guilty_cotton.webp",
+        alt: "PC版アイス「guilty-cotton」のLP",
+      },
+    ],
     target: "SNSでお店を探す20代女性",
     purpose: "認知度を上げ、来店してもらう",
     point:
@@ -226,6 +248,14 @@ export const arrayWorkDetail = [
     title: "長濱美術館「モカそれからの100年」",
     link: "./img/work/movie/museum.webp",
     url: "https://youtube.com/shorts/gquQNM0wYCQ?si=SwPhSjWTttf6bcNF",
+    contents: [
+      {
+        label: "動画",
+        type: "movie",
+        src: "https://www.youtube.com/embed/gquQNM0wYCQ",
+        alt: "長濱美術館「モカそれからの100年」の動画",
+      },
+    ],
     target: "毎日のスマホやPC作業に疲れている30代女性",
     purpose: "作品を見に美術館へ足を運んでもらう",
     point:

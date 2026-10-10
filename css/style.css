@@ -38,6 +38,7 @@ ul {
 
 img {
   width: 100%;
+  display: block;
 }
 
 h1 {
@@ -57,6 +58,10 @@ button {
 
 p {
   display: inline-block;
+}
+
+iframe {
+  border: none;
 }
 
 /* 共通 */
@@ -417,6 +422,25 @@ header li a:hover::after {
   width: 80%;
 }
 
+#work-media-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 5%;
+  margin-top: 100px;
+}
+
+.work-media-item {
+  display: grid;
+  gap: 3px;
+  font-size: 1.2rem;
+}
+
+.work-media-item .movie {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  height: auto;
+}
+
 .work-nav {
   display: flex;
   justify-content: space-between;
@@ -561,6 +585,10 @@ footer {
 
   .category-btn button {
     width: fit-content;
+  }
+
+  #work-list li:only-child {
+    width: 100%;
   }
 
   /* 作品詳細 */
