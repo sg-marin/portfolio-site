@@ -59,7 +59,7 @@ if (work.contents && work.contents.length > 0) {
       }
       return `
     <div class="work-media-item">
-      ${content.label ? `<p>${content.label}</p>` : ""}
+      ${content.label ? `<p>【${content.label}】</p>` : ""}
       ${media}
     </div>
   `;

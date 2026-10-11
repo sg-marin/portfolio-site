@@ -54,6 +54,11 @@ export const arrayWorkLink = [
     link: "./img/home/movie/museum.webp",
     alt: "長濱美術館「モカそれからの100年」のショート動画",
   },
+  {
+    id: 1012,
+    link: "./img/home/web/english_school.webp",
+    alt: "子供英会話塾「キッズイングリッシュ リカレント」",
+  },
 ];
 
 export const arrayLabel = [
@@ -67,7 +72,9 @@ export const arryaTag = [
   { value: "vi", tagName: "#video" },
   { value: "fl", tagName: "#flier" },
   { value: "mv", tagName: "#movie" },
-  { value: "cd", tagName: "#模写コーディング" },
+  { value: "copy_coding", tagName: "#模写コーディング" },
+  { value: "coding", tagName: "#コーディング" },
+  { value: "design", tagName: "#デザイン" },
 ];
 
 export const arrayWorkDetail = [
@@ -83,7 +90,7 @@ export const arrayWorkDetail = [
     time: "6時間",
     size: "1080×1080px",
     tool: "Illustrator / Photoshop",
-    value: ["bn"],
+    value: ["bn", "design"],
     number: 1,
   },
   {
@@ -98,7 +105,7 @@ export const arrayWorkDetail = [
     time: "5時間",
     size: "1080×1080px",
     tool: "Illustrator / Photoshop",
-    value: ["bn"],
+    value: ["bn", "design"],
     number: 1,
   },
   {
@@ -113,7 +120,7 @@ export const arrayWorkDetail = [
     time: "4時間",
     size: "210×297mm",
     tool: "Illustrator / Photoshop / figma",
-    value: ["fl"],
+    value: ["fl", "design"],
     number: 1,
   },
   {
@@ -128,7 +135,7 @@ export const arrayWorkDetail = [
     time: "4時間",
     size: "1080×1080px",
     tool: "Illustrator / Photoshop",
-    value: ["bn"],
+    value: ["bn", "design"],
     number: 1,
   },
   {
@@ -143,7 +150,7 @@ export const arrayWorkDetail = [
     time: "3時間",
     size: "210×297mm",
     tool: "Illustrator / Photoshop",
-    value: ["fl"],
+    value: ["fl", "design"],
     number: 1,
   },
   {
@@ -170,9 +177,9 @@ export const arrayWorkDetail = [
     point:
       "HTMLでは内容に適したタグを使用し、CSSではremやpxなど用途に応じて単位を使い分け、HTMLの構造とCSS役割を意識してコーディングした。<br><br>画面幅に応じてレイアウトが切り替わるようにレスポンシブ対応を行、PC、スマートフォンなど異なる画面サイズでも閲覧しやすいようにした。",
     time: "5時間",
-    size: "1920p×1080spx",
+    size: "1920×1080px",
     tool: "HTML / CSS",
-    value: ["web", "cd"],
+    value: ["web", "copy_coding"],
     number: 1,
   },
   {
@@ -187,7 +194,7 @@ export const arrayWorkDetail = [
     time: "9時間",
     size: "1080×1080px",
     tool: "Illustrator / Photoshop",
-    value: ["bn"],
+    value: ["bn", "design"],
     number: 1,
   },
   {
@@ -202,7 +209,7 @@ export const arrayWorkDetail = [
     time: "11時間",
     size: "1080×1080px",
     tool: "Illustrator / Photoshop",
-    value: ["bn"],
+    value: ["bn", "design"],
     number: 1,
   },
   {
@@ -217,7 +224,7 @@ export const arrayWorkDetail = [
     time: "3時間",
     size: "594×841mm",
     tool: "Illustrator / Photoshop",
-    value: ["fl"],
+    value: ["fl", "design"],
     number: 1,
   },
   {
@@ -238,9 +245,9 @@ export const arrayWorkDetail = [
     point:
       "CSS Gridを使用し、grid-columやgrid-rowを指定して各要素の配置を細かく調整することで、複数の画像やコンテンツを組み合わせた複雑なレイアウトを表現した。<br><br>項目の追加・削除した場合にもレイアウトが崩れにくくなるように、要素間の余白はmargin-topを使用して設定することを意識した。",
     time: "7時間",
-    size: "1920×1080",
+    size: "1920×1080px",
     tool: "Illustrator / Photoshop",
-    value: ["web", "cd"],
+    value: ["web", "copy_coding"],
     number: 1,
   },
   {
@@ -264,6 +271,41 @@ export const arrayWorkDetail = [
     size: "1080×1920px",
     tool: "Illustrator / Photoshop",
     value: ["mv"],
+    number: 1,
+  },
+  {
+    id: 1012,
+    title: "子供英会話塾「キッズイングリッシュ リカレント」",
+    link: "./img/work/web/english_school/mv_english_school.webp",
+    url: "",
+    contents: [
+      {
+        label: "PC",
+        type: "pc",
+        src: "./img/work/web/english_school/pc_english_school.webp",
+        alt: "PC版子供英会話塾「キッズイングリッシュ リカレント」のLP",
+      },
+      {
+        label: "SP",
+        type: "sp",
+        src: "./img/work/web/english_school/sp_english_school.webp",
+        alt: "SP版子供英会話塾「キッズイングリッシュ リカレント」のLP",
+      },
+      {
+        label: "ハンバーガーメニュー",
+        type: "ハンバーガーメニュー",
+        src: "./img/work/web/english_school/hb_english_school.webp",
+        alt: "SP子供英会話塾「キッズイングリッシュ リカレント」のハンバーガーメニュー",
+      },
+    ],
+    target: "30代〜40代の保護者（特に母親）",
+    purpose: "無料体験レッスンへ応募してもらう",
+    point:
+      "子どもが楽しめるだけでなく、保護者にも安心感を持ってもらえるデザインを意識しました。木のモチーフで子どもの成長を、丸みのある形で安心感を表現し、温かみのある色と組み合わせることで、穏やかで親しみやすい印象に仕上げました。<br><br>「選ばれる3つの理由」や「子どもの『好き』から始まるレッスン」など、保護者が知りたい情報を段階的に配置し、最後に無料体験への申し込みにつながるよう情報の流れを意識しました。<br><br>子どもが楽しく学んでいる姿をイメージできるよう、楽しそうに英語を学ぶ子どもの写真を使用しました。「選ばれる理由」では、各項目のタイトルに合ったアイコンを配置し、内容が視覚的にも分かりやすく伝わるよう工夫しました。",
+    time: "15時間",
+    size: "1920×1080px",
+    tool: "Illustrator / Photoshop",
+    value: ["web", "design"],
     number: 1,
   },
 ];

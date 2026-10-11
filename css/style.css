@@ -425,13 +425,13 @@ header li a:hover::after {
 #work-media-list {
   display: flex;
   align-items: flex-start;
-  gap: 5%;
+  gap: 30px;
   margin-top: 100px;
 }
 
 .work-media-item {
   display: grid;
-  gap: 3px;
+  gap: 10px;
   font-size: 1.2rem;
 }
 
@@ -439,6 +439,10 @@ header li a:hover::after {
   width: 100%;
   aspect-ratio: 9 / 16;
   height: auto;
+}
+
+.work-media-item img {
+  box-shadow: 0px 0px 25px rgb(81, 133, 167, 25%);
 }
 
 .work-nav {
@@ -599,5 +603,13 @@ footer {
   /*about*/
   .about-content {
     flex-direction: column;
+  }
+
+  #work-media-list {
+    flex-direction: column;
+  }
+
+  .work-media-item {
+    text-align: center;
   }
 }
