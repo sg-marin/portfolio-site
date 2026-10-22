@@ -46,7 +46,7 @@ export const arrayWorkLink = [
   },
   {
     id: 1010,
-    link: "./img/home/web/guilty-cotton.webp",
+    link: "./img/home/web/guilty_cotton.webp",
     alt: "アイス「guilty-cotton」のWebサイト",
   },
   {
@@ -146,7 +146,7 @@ export const arrayWorkDetail = [
   {
     id: 1005,
     title: "美容室",
-    link: "/img/work/flier/hair_salon.webp",
+    link: "/img/work/flier/hair_salonn.webp",
     url: "",
     target: "髪のダメージやパサつきが気になる30代女性",
     purpose: "新規OPENの認知向上と、キャンペーンを通じた新規顧客の獲得",
