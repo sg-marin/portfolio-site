@@ -1,29 +1,41 @@
 @charset "UTF-8";
 
-/* .libre-baskerville-<uniquifier> {
-  font-family: "Libre Baskerville", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
+@font-face {
+  font-family: "notosansjp";
+  font-weight: 400;
+  src: url(../public/font/notoSansJp/NotoSansJP-Regular.ttf) format("truetype");
+}
 
-/* .noto-sans-jp-<uniquifier> {
-  font-family: "Noto Sans JP", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
+@font-face {
+  font-family: "notosansjp";
+  font-weight: 600;
+  src: url(../public/font/notoSansJp/NotoSansJP-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "librebaskerville";
+  font-weight: 400;
+  src: url(../public/font/libreBaskerville/LibreBaskerville-Regular.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "librebaskerville";
+  font-weight: 700;
+  src: url(../public/font/libreBaskerville/LibreBaskerville-Bold.ttf)
+    format("truetype");
+}
 
 html {
   font-size: 14px;
 }
 
 body {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "notosansjp", sans-serif;
+  font-weight: 400;
   font-optical-sizing: auto;
   font-style: normal;
   color: #333;
-  font-weight: 400px;
   background-color: #fff;
   min-height: 100vh;
   display: flex;
@@ -84,7 +96,8 @@ main {
 /* ヘッダー */
 header {
   background-color: #a9cbd8;
-  font-family: "Libre Baskerville", serif;
+  font-family: "librebaskerville", sans-serif;
+  font-weight: 400;
   margin-bottom: 75px;
 }
 
@@ -140,7 +153,8 @@ header li a:hover::after {
   position: relative;
   width: fit-content;
   font-size: 1.25rem;
-  font-family: "Libre Baskerville", serif;
+  font-family: "librebaskerville", sans-serif;
+  font-weight: 400;
 }
 
 .category-btn button:hover {
@@ -225,14 +239,15 @@ header li a:hover::after {
   font-size: 1.2rem;
   color: #333;
   margin-top: 5px;
+  font-family: "notosansjp", sans-serif;
+  font-weight: 600;
 }
 
 /* 自己紹介ページ */
 /* about */
 #about-main h2 {
-  /* position: relative; */
-  font-family: "Libre Baskerville", serif;
-  font-weight: 700px;
+  font-family: "librebaskerville", sans-serif;
+  font-weight: 700;
   font-size: 2.5rem;
   color: #333;
   width: fit-content;
@@ -293,8 +308,8 @@ header li a:hover::after {
 
 .skill-detail h3 {
   font-size: 1.5rem;
-  font-family: "Libre Baskerville", serif;
-  font-weight: 300px;
+  font-family: "librebaskerville", sans-serif;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -371,6 +386,8 @@ header li a:hover::after {
 .work-title h2 {
   font-size: 2.5rem;
   width: fit-content;
+  font-family: "notosansjp", sans-serif;
+  font-weight: 600;
 }
 
 .work-title a {
@@ -541,7 +558,8 @@ footer {
   margin-top: auto;
   padding: 41px 0;
   text-align: center;
-  font-family: "Libre Baskerville", serif;
+  font-family: "librebaskerville", sans-serif;
+  font-weight: 400;
 }
 
 .footer-area {
