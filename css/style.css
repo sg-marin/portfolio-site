@@ -446,7 +446,7 @@ header li a:hover::after {
   margin-top: 100px;
 }
 
-#work-media-list:has(.work-media-item iframe) {
+#work-media-list:has(iframe) {
   justify-content: center;
   align-items: center;
 }
