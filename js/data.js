@@ -21,13 +21,13 @@ export const arrayWorkLink = [
   },
   {
     id: 1005,
-    link: "./img/home/flier/hair_salon.webp",
-    alt: "美容室のチラシ",
+    link: "./img/home/flier/mansion.webp",
+    alt: "新築マンションのチラシ",
   },
   {
     id: 1006,
     link: "./img/home/web/burger_shop_recurrent.webp",
-    alt: "ハンバーガー「BURGER-SHOP RECURRENT」のwebサイト",
+    alt: "ハンバーガー「BURGER-SHOP RECURRENT」のWebサイト",
   },
   {
     id: 1007,
@@ -57,12 +57,17 @@ export const arrayWorkLink = [
   {
     id: 1012,
     link: "./img/home/web/english_school.webp",
-    alt: "子供英会話塾「キッズイングリッシュ リカレント」",
+    alt: "子供英会話塾「キッズイングリッシュ リカレント」のWebサイト",
   },
   {
     id: 1013,
     link: "./img/home/web/shinyuro.webp",
-    alt: "お茶の製造販売店「深癒露（しんゆろ）」",
+    alt: "お茶の製造販売店「深癒露（しんゆろ）」のWebサイト",
+  },
+  {
+    id: 1014,
+    link: "./img/home/flier/hair_salon.webp",
+    alt: "美容室のチラシ",
   },
 ];
 
@@ -145,14 +150,14 @@ export const arrayWorkDetail = [
   },
   {
     id: 1005,
-    title: "美容室",
-    link: "./img/work/flier/hair_salon.webp",
+    title: "新築マンション",
+    link: "./img/work/flier/mansion.webp",
     url: "",
-    target: "髪のダメージやパサつきが気になる30代女性",
-    purpose: "新規OPENの認知向上と、キャンペーンを通じた新規顧客の獲得",
+    target: "子供を持つ30代男性",
+    purpose: "モデルルームの見学申し込みを促す",
     point:
-      "OPEN記念キャンペーンに帯を付け、髪のダメージやパサつきに悩むターゲットの目に留まりやすいようにキャンペーン情報を強調した。<br><br>髪のサラサラとした質感をイメージできるよう、髪の流れを連想させる曲線的な装飾を取り入れ、やわらかく透明感のある印象を表現した。<br><br>美容室の雰囲気を事前に知ってもらい、安心して来店してもらえるよう、メニューの下に店内写真を配置した。<br><br>チラシを折り曲げて使用する場合も考慮し、メインビジュアルやOPEN情報を上部に、キャンペーンやメニューなどの詳細情報を下部に配置しました。",
-    time: "3時間",
+      "物件の魅力や詳細を確認した後、見学申し込みへ進めるよう、チラシの最下部にモデルルームの案内を配置しました。<br>情報を読み進めた先に次の行動を促す導線を意識しました。<br><br>オートロックや宅配ボックスなどの設備情報にアイコンを使用し、文字を読み込まなくてもマンションの特徴を直感的に把握できるようにしました。<br><br>マンション名や外観写真を大きく配置して物件の印象を伝えつつ、キャッチコピー、設備、間取り・価格などをエリアごとに整理しました。<br>情報の優先順位を明確にし、必要な情報を探しやすいレイアウトを意識しました。",
+    time: "5時間",
     size: "210×297mm",
     tool: "Illustrator / Photoshop",
     value: ["fl", "design"],
@@ -346,6 +351,21 @@ export const arrayWorkDetail = [
     size: "1920×1080px",
     tool: "Figma / Photoshop",
     value: ["web", "design"],
+    number: 1,
+  },
+  {
+    id: 1014,
+    title: "美容室",
+    link: "./img/work/flier/hair_salon.webp",
+    url: "",
+    target: "髪のダメージやパサつきが気になる30代女性",
+    purpose: "新規OPENの認知向上と、キャンペーンを通じた新規顧客の獲得",
+    point:
+      "OPEN記念キャンペーンに帯を付け、髪のダメージやパサつきに悩むターゲットの目に留まりやすいようにキャンペーン情報を強調した。<br><br>髪のサラサラとした質感をイメージできるよう、髪の流れを連想させる曲線的な装飾を取り入れ、やわらかく透明感のある印象を表現した。<br><br>美容室の雰囲気を事前に知ってもらい、安心して来店してもらえるよう、メニューの下に店内写真を配置した。<br><br>チラシを折り曲げて使用する場合も考慮し、メインビジュアルやOPEN情報を上部に、キャンペーンやメニューなどの詳細情報を下部に配置しました。",
+    time: "3時間",
+    size: "210×297mm",
+    tool: "Illustrator / Photoshop",
+    value: ["fl", "design"],
     number: 1,
   },
 ];
